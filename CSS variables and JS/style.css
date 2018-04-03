@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+}
+.controls{
+    top:25%;
+}
+:root {
+    --base:#1ba7e7;
+    --spacing: 5px;
+    --blur: 5px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    left:30%;
+    position: relative;
+}
+
+.highlight{
+    color: var(--base);
+
+}
